@@ -1,0 +1,29 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#root {
+    background: oklch(37.9% 0.146 265.522);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#root h1 {
+    font-size: 2rem;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+}
+
+@media (min-width: 720px) {
+    #root h1 {
+        font-size: 4rem;
+    }
+}
